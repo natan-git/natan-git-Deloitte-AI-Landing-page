@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Deloitte's Artificial Intelligence</title>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <div class="responsive-two-column-grid">
+                <div class="hero__lockup">
+                    <h1 class="hero__heading">Revolutionize your Impact with Deloitte’s AI solutions</h1>
+                    <!-- <p class="hero__subheading">Experience the power of AI-driven solutions for your business today </p> -->
+                    <p class="hero__subheading"> AI-driven solutions are becoming increasingly popular in the business
+                        world, with companies using them to improve efficiency, save time, and reduce costs</p>
+                    <button class="btn btn-white">GET STARTED</button>
+                </div>
+
+                <!-- <div class="hero__img"><img src="./Assets/GenAI-hero.png" alt="hero img"></div> -->
+                <video autoplay muted loop>
+                    <source src="./Assets/AI Hero Loop.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <lottie-player src="./Assets/scroll.json" background="transparent" speed="1" style="width: 90px; height: 90px;"
+            loop autoplay></lottie-player>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2 class="section__heading">WHAT WE DO</h2>
+            <p class="section__subheading">We bring worlds together to move your world forward.</p>
+            <div class="responsive-two-column-grid services__gap mb-5">
+                <div class="services__card">
+                    <h3>Data & AI transformation</h3>
+                    <p>We provide strategic advice on data, analytics, and AI-driven transformations to deliver value
+                        across your enterprise. Our expertise helps the C-suite make better, data-informed decisions.
+                    </p>
+                </div>
+                <div class="services__card">
+                    <h3>AI & Insights</h3>
+                    <p>We provid experienced AI and Analytics experts, robust tools, and curated data sets
+                        for clients to help them efficiently scale up their AI and Analytics capabilities.</p>
+                </div>
+            </div>
+
+            <div class="responsive-two-column-grid services__gap">
+                <div class="services__card">
+                    <h3>Data Stack Modernization</h3>
+                    <p>We modernize data and analytics programs for large-scale, insight-driven organizations using
+                        cloud, edge, and AI/ML technologies for efficient data storage, processing, and analysis.</p>
+                </div>
+                <div class="services__card">
+                    <h3>Deep Learning & HPC</h3>
+                    <p>We deliver global AI and High-Performance Computing software solutions. Our unique
+                        expertise enables comprehensive services to accelerate digital transformation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <div class="container">
+            <p class="cta__subheading">OUR SOLUTIONS</p>
+            <h2 class="cta__heading">REVOLUTIONIZE YOUR BUSINESS WITH DELOITTE’S AI SOLUTIONS</h2>
+        </div>
+    </section>
+
+    <section class="solutions">
+        <div class="container responsive-two-column-grid">
+            <div class="left-column">
+                <h2 class="section__heading">HOW WE CAN HELP YOU</h2>
+                <p class="section__subheading">We transform ideas into impact</p>
+                <div class="clickable-title active" onclick="showContent('content1', this)">Data and AI transformation
+                </div>
+                <div class="clickable-title" onclick="showContent('content2', this)">AI and Insights</div>
+                <div class="clickable-title" onclick="showContent('content3', this)">Data Stack Modernization</div>
+                <div class="clickable-title" onclick="showContent('content4', this)">Deep Learning & HPC</div>
+            </div>
+
+            <div class="right-column">
+                <div id="content1" class="content slide-in">
+                    <ul class="accordion">
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>01</span>
+                                <h2>AI & Data Strategy and Value Realization</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Advise on the potential of AI and Data and impacts to your existing business,
+                                prioritizing core business areas that can gain advantage from AI and Data, Developing a
+                                vision and roadmap tos cale and sustain benefits over time.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>02</span>
+                                <h2>AI & Data Operating Model, Governance, and CDAO.</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Design the AI and Data operating model, interaction model, service delivery model, and
+                                processes to operationalize the organization’s vision and capabilities. Assess and
+                                define workforce including required skillsets, team composition and mix.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>03</span>
+                                <h2>AI & Data Architecture and Ecosystem Enablement</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Define the architect the Data and technical capabilities needed to enable the
+                                organization to fulfill its vision and business objectives as well as identification and
+                                management of the ecosystem partners needed to achieve this.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>04</span>
+                                <h2>AI & Data Innovation and Monetization</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Explore and discover innovative opportunities to gain advantage and monetize your
+                                existing data or new AI and Data-fueled products and services and build new business
+                                models that will shape their future business.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="content2" class="content  slide-in" style="display: none;">
+                    <ul class="accordion">
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>01</span>
+                                <h2>AI Engineering: from BI to AI</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Engineer and Leverage AI and advanced Analytics platforms, tools and techniques to
+                                enable insights at the speed of the business.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>02</span>
+                                <h2>Scaling AI/GenAI: PoC to Industrialization</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Build and Deploy ML models from PoC’s to production and manage MLOps/LLMOps.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>03</span>
+                                <h2>AI Driven Automation: From Routine to Re-Imagined</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Redesign and automate business processes by leveraging RPA, Computer Vision, NLP, NLG,
+                                and ML.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>04</span>
+                                <h2>Value Realization: From Data to Dollars</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Increase revenue, expand margins, and improve compliance and customer experience through
+                                insights and predictions using GenAI/ AI/ ML, Advanced Analytics, Design Thinking and
+                                Visualization
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="content3" class="content  slide-in" style="display: none;">
+                    <ul class="accordion">
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>01</span>
+                                <h2>Appliance & Hadoop Offload </h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Modernize legacy data to cloud platforms to reduce costs and enable analytics.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>02</span>
+                                <h2>Cloud analytics (AI\ML) </h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Deliver advanced analytics and insights at scale while embedding AI/ML and Analytics.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>03</span>
+                                <h2>Industry Cloud </h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Enable digital transformation and AI/ML products and services.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>04</span>
+                                <h2>Enablement of Data for GenAI</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Deliver integration across on-prem and cloud platforms to support LLM deployments in
+                                support of GenAI.
+                            </p>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>05</span>
+                                <h2>Hybrid Deployment</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                Distributed edge, multi-cloud data processing including near real-time IOT and computer
+                                vision data streams.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="content4" class="content  slide-in" style="display: none;">
+                    <ul class="accordion">
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>01</span>
+                                <h2>Artificial Intelligence</h2>
+                            </div>
+                            <p class="accordion-item__subheading">
+                                AI algorithms development using Neural Networks:
+                            </p>
+                            <ul>
+                                <li>Detection, segmentation, tracking, compression, depth estimation, landmarks
+                                    extraction, generative models and more.</li>
+                                <li>
+                                    Mixed precision training.
+                                </li>
+                                <li>
+                                    Efficient inferencing FP32/FP16/INT8.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>02</span>
+                                <h2>NVIDIA Jetson Platform development</h2>
+                            </div>
+                            <p class="accordion-item__subheading">NVIDIA Jetson </p>
+                            <ul>
+                                <li>
+                                    Development for NVIDIA Jetson platform Edge Devices.
+                                </li>
+                                <li>
+                                    Neural networks research, development, and deployment using TensorRT, DeepStream,
+                                    Triton inference server, and TAO Toolkit.
+                                </li>
+                                <li>
+                                    Highly optimized code using CUDA C++/Python, VPI.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>03</span>
+                                <h2>Software Optimization</h2>
+                            </div>
+                            <p class="accordion-item__subheading"></p>
+                            <ul>
+                                <li>
+                                    GPU development and optimizations using CUDA.
+                                </li>
+                                <li>
+                                    CPU optimizations using SIMD, parallel programming, usage of atomic commands,
+                                    lock-free data structures, etc.
+                                </li>
+                                <li>
+                                    Finding hotspots, detecting and analyzing various types of bottlenecks.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>04</span>
+                                <h2>GPU Development</h2>
+                            </div>
+                            <p class="accordion-item__subheading"></p>
+                            <ul>
+                                <li>
+                                    Design, architect, and implement new systems.
+                                </li>
+                                <li>
+                                    CUDA GPU development, supporting high memory bandwidth and high compute efficiency.
+                                </li>
+                                <li>
+                                    OpenCL GPU Development.
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="accordion-item">
+                            <input type="checkbox" checked>
+                            <i></i>
+                            <div class="accordion-item__heading">
+                                <span>05</span>
+                                <h2>OpenAI</h2>
+                            </div>
+                            <p class="accordion-item__subheading"></p>
+                            <ul>
+                                <li>
+                                    Consulting services.
+                                </li>
+                                <li>
+                                    Training and courses.
+                                </li>
+                                <li>
+                                    Customer support.
+                                </li>
+                                <li>
+                                    Custom AI model development.
+                                </li>
+                                <li>
+                                    Data preparation and analysis.
+                                </li>
+                                <li>
+                                    API performance optimization.
+                                </li>
+                                <li>
+                                    Custom AI tool development.
+                                </li>
+                                <li>
+                                    Development services.
+                                </li>
+                                <li>
+                                    Custom API integration.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <h2 class="section__heading">EXPLORE OUR INSIGHTS</h2>
+            <p class="section__subheading">Empower yourself with valuable insights.</p>
+            <div class="blog-wrapper responsive-three-column-grid">
+                <div class="blog-card ">
+                    <img class="blog__img" src="./Assets/blog-img-1.webp" alt="blog image">
+                    <h3 class="blog__heading">GEN AI: Friend or Foe?</h3>
+                    <p>Unleashing the Potential of GEN AI for Good (Optimistic & Forward-Looking)</p>
+                </div>
+                <div class="blog-card">
+                    <img class="blog__img" src="./Assets/blog-img-2.webp" alt="blog image">
+                    <h3 class="blog__heading">Beyond Imagination</h3>
+                    <p>How GEN AI Will Change Your World (Bold & Provocative)</p>
+                </div>
+                <div class="blog-card">
+                    <img class="blog__img" src="./Assets/blog-img-3.webp" alt="blog image">
+                    <h3 class="blog__heading">GEN AI: Friend or Foe?</h3>
+                    <p>Unleashing the Potential of GEN AI for Good (Optimistic & Forward-Looking)</p>
+                </div>
+            </div>
+            <div class="center-btn">
+                <button class="btn btn--transparent">View More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="section__heading">MEET THE TEAM</h2>
+            <p class="section__subheading">Get to know the faces behind the name.</p>
+            <div class="four-column-grid">
+                <div class="contact-card">
+                    <img class="contact-card__img" src="./Assets/Ran-Bergman.png"
+                        alt="Ran Bergman - Data & AI Practice Leader">
+                    <h3 class="contact-card__heading">Ran Bergman</h3>
+                    <p class="contact-card__subheading">Data & AI Practice Leader</p>
+                    <div class="contact__icon-box">
+                        <img src="./Assets/linkedin-icon.png" alt="linkedin icon for contact section deloitte website">
+                        <img src="./Assets/mail-icon.png" alt="mail icon for contact section deloitte website">
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <img class="contact-card__img" src="./Assets/Shlomi-Cohen.png"
+                        alt="Shlomi Cohen - Director, AI & Insights">
+                    <h3 class="contact-card__heading">Shlomi Cohen</h3>
+                    <p class="contact-card__subheading">Managing Director, AI & Insights</p>
+                    <div class="contact__icon-box">
+                        <img src="./Assets/linkedin-icon.png" alt="linkedin icon for contact section deloitte website">
+                        <img src="./Assets/mail-icon.png" alt="mail icon for contact section deloitte website">
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <img class="contact-card__img" src="./Assets/Tomer-Gal.png"
+                        alt="Tomer Gal - Director, Deep Learning & HPC">
+                    <h3 class="contact-card__heading">Tomer Gal</h3>
+                    <p class="contact-card__subheading">Managing Director, Deep Learning & HPC</p>
+                    <div class="contact__icon-box">
+                        <img src="./Assets/linkedin-icon.png" alt="linkedin icon for contact section deloitte website">
+                        <img src="./Assets/mail-icon.png" alt="mail icon for contact section deloitte website">
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <img class="contact-card__img" src="./Assets/Oz-Nevo.png" alt="Oz Nevo - Data Monatization">
+                    <h3 class="contact-card__heading">Oz Nevo</h3>
+                    <p class="contact-card__subheading">Data Monatization</p>
+                    <div class="contact__icon-box">
+                        <img src="./Assets/linkedin-icon.png" alt="linkedin icon for contact section deloitte website">
+                        <img src="./Assets/mail-icon.png" alt="mail icon for contact section deloitte website">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
