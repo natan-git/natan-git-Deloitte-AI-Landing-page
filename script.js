@@ -1,4 +1,4 @@
-
+window.onload=function(){document.getElementById("autoplay").onplay();}
 // ------------------------------------observer----------------------------------------------
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
