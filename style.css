@@ -1,7 +1,7 @@
 * { box-sizing: border-box;}
 html{scroll-behavior: smooth;}
 body { font-family: "Open Sans", "Arial", sans-serif; font-size: 1.125rem; margin: 0; color: #000000;}
-p, h1, h2, h3, h4, h5, h6 { margin: 0; }
+p, h1, h2, h3, h4, h5, h6 { margin: 0; } 
 @media screen and (max-width: 768px) { } 
 .section__heading{ font-style:italic; color: #000000; font-weight:800; font-size: 1.875; }
 .section__subheading{ font-style:italic; font-weight:300; font-size: 2.5rem; margin-bottom: 5rem; }
@@ -172,21 +172,21 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
 .zoom-container:hover .zoom-image { cursor: pointer; transform: scale(1.0325); /* Adjust the scale factor for the desired zoom level */ }
 .zoom-image { width: 100%; height: 100%; transition: transform 0.3s ease-in-out; position: absolute; }
 .blog-img-1{
-  background: url(https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/blog-img_1.png) no-repeat center center; 
+  background: url("https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/blog-img_1.png") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .blog-img-2{
-  background: url(https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/blog-img_2.png) no-repeat center center; 
+  background: url("https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/blog-img_2.png") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .blog-img-3{
-  background: url(https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/blog-img_3.png) no-repeat center center; 
+  background: url("https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/blog-img_3.png") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
