@@ -15,7 +15,7 @@ const observer = new IntersectionObserver((entries)=>{
     threshold: [0, 0.1, 1]
 })
 
-const tags = document.querySelectorAll(".section__heading, .section__subheading, .services__card, .blog-card, .contact-card, .cta__subheading, .cta__heading, .clickable-title, .right-column, .clickables-heading")
+const tags = document.querySelectorAll(".section__heading, .section__subheading, .services__card, .blog-card, .cta__subheading, .cta__heading, .clickable-title, .right-column, .clickables-heading")
 tags.forEach((tag) => {
     observer.observe(tag)
 })
