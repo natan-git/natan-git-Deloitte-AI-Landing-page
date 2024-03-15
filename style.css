@@ -90,7 +90,18 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
   .services__card p{margin-bottom: 2.75rem; font-size: 1rem;}
 }
 /* -----------------------------CTA---------------------------------- */
-.cta{ background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/AI%20Secondary-Image-Background-5.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 8rem 4rem; }
+/* .cta{ background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/AI%20Secondary-Image-Background-5.jpg") no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 8rem 4rem; } */
+
+.cta{ 
+  padding: 8rem 4rem;
+  background: url("https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/CTA-BG-IMG.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 .cta__heading{text-align: center; color: white; font-size: 4rem; font-style: italic;}
 /* .cta__subheading{text-align: center; color: white; font-size: 1rem; font-style: italic; font-weight: 400;} */
 @media screen and (max-width: 768px) { .cta{padding: 4rem 0rem;} .cta__heading{font-size: 2.5rem;} .cta__subheading{font-size: 1rem; } }
@@ -130,7 +141,7 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
 .clickable-title {
   padding: 10px 20px; /* Set the padding as needed */
   border-radius: 8px; /* Set the border radius as needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.048); /* Set the box shadow properties as needed */
+  box-shadow: rgba(148, 148, 148, 0.2) 0px 2px 8px 0px;
   background-color: #ffffff; /* Set the background color as needed */
   cursor: pointer; /* Set cursor to indicate clickable element */
   margin-bottom: 10px; /* Set margin bottom as needed */
@@ -186,15 +197,15 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
 
 @media screen and (max-width: 768px) { .blog{padding: 4rem 0rem;} .blog-card{margin-bottom: 3rem;} .blog__subheading{padding-right: 0rem;} .zoom-container{min-height: 12rem;}}
 /* -----------------------------CONTACT---------------------------------- */
-.contact{padding: 7rem 0rem;}
+.contact{padding: 7rem 0rem; }
 .contact.mobile{display: none;}
 .contact.desk{display: block;}
 
-.contact__heading{ font-style:italic; font-weight:800; font-size: 1.875; margin-bottom: .5rem;}
-.contact__subheading{ font-style:italic; font-weight:300; font-size: 2.5rem; margin-bottom: 5rem;}
-.contact-card{display: flex; justify-content: center; align-items:start; flex-direction: column; width: 300px;}
-.contact-card__img{width: 12rem; border-radius: 100rem; margin-bottom: 1rem; border-radius: 50%;}
-.contact-card__heading{font-size: 2rem; font-weight: 500; margin-bottom: .5rem;}
+/* .contact__heading{ font-style:italic; font-weight:800; font-size: 1.875; margin-bottom: .5rem;}
+.contact__subheading{ font-style:italic; font-weight:300; font-size: 2.5rem; margin-bottom: 5rem;} */
+.contact-card{display: flex; justify-content: center; align-items:start; flex-direction: column; width: 100%;}
+.contact-card__img{width: 10rem; border-radius: 100rem; margin-bottom: 1rem; border-radius: 50%;}
+.contact-card__heading{font-size: 1.5rem; font-style: italic; text-transform: uppercase; font-weight: 800; margin-bottom: .5rem;}
 .contact-card__subheading{font-size: 1rem; font-weight: 300; margin-bottom: 1.125rem;}
 .contact__icon-box{display: flex; align-items: center; justify-content: start; gap: 1rem;}
 .contact__icon-box img{width: 2rem;}
