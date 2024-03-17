@@ -29,21 +29,24 @@ a:focus, a:hover { text-decoration: none; }
 /* -----------------------------HERO---------------------------------- */
 .gradient-text{ vertical-align: 105%; font-size: 2.125rem; background: -webkit-linear-gradient(#07ae18, #c4c4c4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
  b{font-style: italic;}
-.hero{ height: 100vh;  padding: 6rem 0rem;  background-color: #000000; color: #ffff; position: relative; }
+.hero{ height: 100vh;  padding: 6rem 0rem;  background-color: #000000; color: #ffff; display: flex; justify-content: center; align-items: center;}
 .hero__heading {font-size: 5.125rem;  line-height: 1.2; margin-bottom: 1.125rem; font-style:italic; font-weight:800; text-transform: uppercase;}
 .hero__subheading{font-size: 1.5rem; margin-bottom: 2rem; color: #838383; font-weight: 300;}
-.hero__heading-mobile{display: none;}
-
 lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
 .hero video{width: 100%; margin: 0 auto; display: block; z-index: 1;}
 @keyframes fade-in-forward { 0% { opacity: 0; transform: scale(0.9); } 100% { opacity: 1; transform: scale(1); } }
 .hero__img { animation: fade-in-forward 1.3s ease 0s 1 normal forwards; display: none;}
+/* .hero__img {display: none;} */
+
 .hero__img img{width: 70%; float: right; }
 @keyframes fade-in-bottom { 0% { opacity: 0; transform: translateY(50px); } 100% { opacity: 1; transform: translateY(0); } }
 .hero__lockup { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; animation: fade-in-bottom 1.3s ease 0s 1 normal forwards;}
+/* .hero__lockup { display: flex; flex-direction: column; justify-content: center; align-items: flex-start;} */
+
+
 @media screen and (max-width: 768px) {
   .hero {  padding: 4rem 0rem 5rem 0rem; height: auto; }
-  .hero__lockup { display: flex; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 3rem ; text-align: center;}
+  .hero__lockup {display: flex; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 3rem ; text-align: center;}
   .hero__heading{ line-height: 1; font-size: 3rem;}
   .hero__heading-mobile{display: block;}
   .hero__subheading{font-size: 1.125rem; }
@@ -111,7 +114,7 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
 @media screen and (max-width: 768px) { .solutions{ padding: 4rem 0rem;} .bg-blob{display: none;}}
 /* -----------------------------Accordion---------------------------------- */
 .transition, ul li i:before, ul li i:after, p, ul { transition: all 0.25s ease-in-out; }
-.flipIn, .accordion .accordion-item, h1 { animation: flipdown 0.6s ease both; }
+.flipIn, .accordion .accordion-item { animation: flipdown 0.6s ease both; }
 .accordion-item__heading{display: flex; justify-content: flex-start; align-items: center; }
 .accordion-item__heading h2{font-weight: 300; font-size: 1.85rem; color: #000000;}
 .accordion-item__heading span{font-size: 3rem; margin-right: 2rem; font-weight: 300;}
