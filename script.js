@@ -15,7 +15,7 @@ const observer = new IntersectionObserver((entries)=>{
     threshold: [0, 0.1, 1]
 })
 
-const tags = document.querySelectorAll(".section__heading, .section__subheading, .services__card, .blog-card, .cta__subheading, .cta__heading, .clickable-title, .right-column, .clickables-heading")
+const tags = document.querySelectorAll(".section__heading, .section__subheading, .services__card, .blog-card, .cta__subheading, .cta__heading, .clickable-title, .right-column, .clickables-heading, .vision__lock-up")
 tags.forEach((tag) => {
     observer.observe(tag)
 })
@@ -42,10 +42,6 @@ function showContent(contentId, clickedHeading) {
   }
 // ------------------------------------------------------------------------------------------
 
-
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
   var toggleBtn = document.getElementById("toggle");
   var textElem = document.getElementById("hiddenText");
@@ -65,18 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
+// ------------------------------------Carousel-----------------------------------------------------------
 
 
 
