@@ -13,9 +13,9 @@ a:focus, a:hover { text-decoration: none; }
 .container{ max-width: 85%; margin: 0 auto; padding: 0rem 1rem;}
 @media screen and (max-width: 1200px) { .container{ max-width: 95%; margin: 0 auto; padding: 0rem 1rem;} }
 button{color: #000000;}
-.btn{ font-weight: 800; font-style: italic; cursor: pointer; font-size: 1.125rem; font-family: 'Open Sans', sans-serif; border-radius: 100rem; border: none; margin: 0; padding: 9px 25px 9px 25px; width: auto; -webkit-font-smoothing: inherit; -moz-osx-font-smoothing: inherit; -webkit-appearance: none; appearance: none; -webkit-tap-highlight-color: transparent; }
+.btn{ font-weight: 800; font-style: italic; cursor: pointer; font-size: 1.125rem; font-family: 'Open Sans', sans-serif; border-radius: 100rem; border: none; margin: 0; padding: 9px 25px 9px 25px; width: auto; -webkit-font-smoothing: inherit; -moz-osx-font-smoothing: inherit;   }
 .btn--white{ background-color: white; color: #000000;}
-.btn--black{background-color: #000000; color: #ffff;}
+.btn--black{ background-color: #000000; color: #ffff;}
 .btn--transparent{background-color: #ffffff; color: #000000; border: 2px solid rgb(27, 27, 27);}
 /*two-column-grid */
 .responsive-two-column-grid {display:block;}
@@ -30,7 +30,7 @@ button{color: #000000;}
 /* -----------------------------HERO---------------------------------- */
 .gradient-text{ vertical-align: 105%; font-size: 2.125rem; background: -webkit-linear-gradient(#07ae18, #c4c4c4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
  b{font-style: italic;}
-.hero{ height: 100vh;  padding: 6rem 0rem;  background-color: #000000; color: #ffff; display: flex; justify-content: center; align-items: center;}
+.hero{ height: 100vh;  padding: 6rem 0rem;  background-color: #000000; color: #ffff; display: flex; justify-content: center; align-items: center; position: relative;}
 .hero__heading {font-size: 5.125rem;  line-height: 1.2; margin-bottom: 1.125rem; font-style:italic; font-weight:800; text-transform: uppercase;}
 .hero__subheading{font-size: 1.5rem; margin-bottom: 2rem; color: #838383; font-weight: 300;}
 lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); }
@@ -89,7 +89,7 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
   .services{ padding: 4rem 0rem; }
   .services__heading{ font-size: 0.875;}
   .services__subheading{ font-size: 1.5rem;}
-  .services__card h3{ font-size: 1.525rem; font-weight: 600; font-style:italic; margin-bottom: 0.75rem;}
+  .services__card h3{ font-size: 1.525rem; font-weight: 600; font-style:italic; margin-bottom: .125rem;} 
   .services__card p{margin-bottom: 2.75rem; font-size: 1rem;}
 }
 /* -----------------------------CTA---------------------------------- */
