@@ -41,7 +41,6 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
 .hero__img img{width: 70%; float: right; }
 @keyframes fade-in-bottom { 0% { opacity: 0; transform: translateY(50px); } 100% { opacity: 1; transform: translateY(0); } }
 .hero__lockup { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; animation: fade-in-bottom 1.3s ease 0s 1 normal forwards;}
-/* .hero__lockup { display: flex; flex-direction: column; justify-content: center; align-items: flex-start;} */
 
 
 @media screen and (max-width: 768px) {
@@ -97,7 +96,7 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
 
 .cta{ 
   padding: 8rem 4rem;
-  background: url("https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/CTA-BG-IMG.jpg") no-repeat center center fixed; 
+  background: url("https://www2.deloitte.com/content/dam/html/il/2024/ai-landing-page/assets/CTA-BG-IMG.jpg") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -213,7 +212,9 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
 .contact__icon-box{display: flex; align-items: center; justify-content: start; gap: 1rem;}
 .contact__icon-box img{width: 2rem;}
 
-@media screen and (max-width: 768px) {.contact.desk{display: none;} .contact.mobile{display: block;} .contact {padding: 4rem 0rem; } .contact-card{margin-bottom: 3rem; align-items:center; width: 100%;} .contact-card__img{width: 8rem;} .contact-card__heading{font-size: 1.5rem;} .contact-card__subheading{text-align: center;}
+.gallery-cell{width: 100%;}
+
+@media screen and (max-width: 768px) {.contact.desk{display: none;} .contact.mobile{display: block;} .contact {padding: 4rem 0rem; } .contact-card{margin-bottom: 3rem; align-items:center; width: 100%;} .contact-card__img{width: 8rem;} .contact-card__heading{font-size: 1.5rem;} .contact-card__subheading{text-align: center;}}
 @keyframes slideIn { 0% { transform: translate(0px, 1rem); opacity: 0; } 100% { transform: translate(0, 0); opacity: 1; } }
 @keyframes slideInLeft { 0% { transform: translate(1rem, 0rem); opacity: 0; } 100% { transform: translate(0, 0); opacity: 1; } }
 .slide-in { animation: slideIn 300ms ease-in; }
@@ -240,7 +241,5 @@ lottie-player{ width: 100px; margin: 0; position: absolute; bottom:0%; left: 50%
 .right-column.in-view{animation: slideIn .8s 1s both;}
 
 
+.vision__lock-up.in-view{animation: slideIn .8s .4s both;}
 
-
-
-.gallery-cell{width: 100%;}
